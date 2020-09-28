@@ -1,0 +1,10 @@
+ON MAC OS X
+(create ionic project => npm i -g @ionic/cli && ionic start helloworld blank && cd helloworld)
+1. install ios-sim => sudo npm i -g ios-sim
+2. install xcode tools => xcode-select --install (not working => server error)
+3. install cocoapods => sudo gem install cocoapods
+4. build the project if not already done : ionic build
+5. add ios with capacitor => ionic capacitor add ios
+6. open xcode => ionic capacitor open ios
+7. set dev team : in xcode, click on root of the app in explorer then go to "signing & capabilities" tab, select the team and change bundle identifier for an available one
+8. you can now run on your device or simulation device with play button
